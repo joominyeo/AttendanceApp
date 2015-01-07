@@ -24,8 +24,8 @@
         android:text="Attendance List"
         android:id="@+id/AttendanceBtn"
         android:onClick="showAttendance"
-        android:layout_below="@+id/PeriodBtn"
-        android:layout_alignLeft="@+id/PeriodBtn"
-        android:layout_alignStart="@+id/PeriodBtn" />
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
